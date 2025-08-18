@@ -1,3 +1,4 @@
+
 # Patient-SpringBoot-React
 
 This project is simple hospital management system. 
@@ -45,3 +46,7 @@ To Run Test Suite:    `npm test`
 To Start Server:      `npm start`
 
 To Visit App:         `localhost:3000`
+
+# CuraTrack
+CuraTrack – Hospital Management System using React &amp; Spring Boot for managing patients, doctors, and appointments.
+ 329acc8e66f0a35d547f024df01805e39f24513e
