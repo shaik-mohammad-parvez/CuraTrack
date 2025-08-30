@@ -12,7 +12,7 @@ This project is simple hospital management system.
 - JPA, Hibernate
 - React
 - Bootstrap 4
-- Oracle Database 11g
+- MySQL
 ```
 ### important !!!
 ```
