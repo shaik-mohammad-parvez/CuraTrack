@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Patient-SpringBoot-React
 
@@ -50,3 +51,7 @@ To Visit App:         `localhost:3000`
 # CuraTrack
 CuraTrack – Hospital Management System using React &amp; Spring Boot for managing patients, doctors, and appointments.
  329acc8e66f0a35d547f024df01805e39f24513e
+=======
+# CuraTrack
+CuraTrack – Hospital Management System using React &amp; Spring Boot for managing patients, doctors, and appointments.
+>>>>>>> d86632cd7bd709deda04379c2d0274be422d9c03
