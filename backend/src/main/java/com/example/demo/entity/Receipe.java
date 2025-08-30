@@ -37,6 +37,7 @@ public class Receipe {
 	private String detail;
 	private String barcode;
 	private String drug_detail;
+	@Column(name = "`usage`")
 	private String usage;
 	private String delivery_date;
 	private Long problemid;

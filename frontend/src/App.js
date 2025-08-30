@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import axios from 'axios';
+import PatientList from './PatientList';
+
 import './App.css';
 import { Switch, Route, BrowserRouter } from "react-router-dom"; //Router,
 import ListPatientComponent from './Routes/PatientComponents/ListPatientComponent';
@@ -14,17 +17,20 @@ import NavbarComponent from './Navbar/NavbarComponent';
 import ProblemFormComponent from './Routes/PatientComponents/ProblemComponent/ProblemFormComponent';
 // https://www.youtube.com/watch?v=DQ93TxqKkWo
 function App() {
+  // Optionally keep the effect for debugging, or remove if not needed
+
   return (            
     <div className="App" >
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-          <NavbarComponent />
-          <a href="/">
-            {/* style={{width: 400, height: 100}}  */}
-            <img style={{ height: "100px", margin: "10px 0"}}  
-            src="https://www.phuketinternationalhospital.com/en/wp-content/themes/pih/images/logo-nonetext.png" alt="" />
-          </a>
+            <NavbarComponent />
+            <a href="/">
+              {/* style={{width: 400, height: 100}}  */}
+              <img style={{ height: "100px", margin: "10px 0"}}  
+                src="https://www.phuketinternationalhospital.com/en/wp-content/themes/pih/images/logo-nonetext.png" alt="" />
+            </a>
+            <PatientList />
             <BrowserRouter>
               <Switch>
                 <Route path="/" exact component={ListPatientComponent} />
